@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  &__left {
+    flex: 0.2;
+    border-right: 1px solid gray;
+  }
+
+  &__right {
+    flex: 0.8;
+  }
+}
